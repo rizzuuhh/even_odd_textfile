@@ -4,6 +4,7 @@ with open('numbers.txt', 'r') as file:
     numbers = [int(number) for number in file.read().split()]
 
 # Create two new files, even.txt and odd.txt, for writing
+with open('even.txt', 'w') as even_file, open('odd.txt', 'w') as odd_file:
 # Loop through each number in the list
 # Check if the number is even
 # Write the even number to the even.txt file
