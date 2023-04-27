@@ -10,4 +10,6 @@ with open('even.txt', 'w') as even_file, open('odd.txt', 'w') as odd_file:
         # Check if the number is even
          if number % 2 == 0:
             # Write the even number to the even.txt file
-# Write the odd number to the odd.txt file
+            even_file.write(str(number) + '\n')
+
+# Write the odd number to the odd.txt file 
